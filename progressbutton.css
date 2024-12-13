@@ -1,0 +1,115 @@
+#row {
+	display: inherit;
+	justify-content: space-around;
+	margin-top: 50px;
+	border: 5px solid black;
+    margin-left: 20px;
+    float: left;
+    padding: 0;
+    height: 500px;
+    width: 80%;
+}
+.progress-btn {
+	position: relative;
+	width: 150px;
+	height: 50px;
+	display: inline-block;
+	background: #4caf50;
+	font-family: "RobotoDraft","Roboto",sans-serif;
+	color: #fff;
+	font-weight: normal;
+	font-size: 20px;
+	transition: all 0.4s ease;
+	spacing: 10px;
+	overflow: hidden;
+	margin-left: 10px;
+	margin-right:0px;
+	margin-top: 10px;
+}
+
+.progress-btn:not(.active) {
+	cursor: pointer;
+}
+
+.progress-btn .btn {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	line-height: 50px;
+	text-align: center;
+	z-index: 10;
+	opacity: 1;
+}
+
+.progress-btn.active .progress {
+	width: 0%;
+	z-index: 5;
+	background: #95df28;
+	opacity: 0;
+	transition: all 0.3s ease;
+
+	
+}
+
+.progress-btn.active .progress {
+	opacity: 1;
+	animation: progress-anim 10s ease 0s;
+}
+
+.progress-btn[data-progress-style='fill-bottom'].active .progress, .progress-btn[data-progress-style='fill-top'].active .progress {
+	height: 5px;
+}
+
+
+
+
+.progress-btn[data-progress-style='fill-bottom'] .progress {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 0;
+}
+
+@keyframes progress-anim {
+	0% {
+		width: 0%;
+	}
+	5% {
+		width: 0%;
+	}
+	10% {
+		width: 15%;
+	}
+	30% {
+		width: 40%;
+	}
+	50% {
+		width: 55%;
+	}
+	80% {
+		width: 100%;
+	}
+	95% {
+		width: 100%;
+	}
+	100% {
+		width: 0%;
+	}
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}

@@ -1,0 +1,160 @@
+
+table {
+    margin: auto;
+    margin-top: 20px;
+}
+#oktick:hover {
+    color: blue;
+    cursor: default;
+}
+#ans-script-img,
+#original-ans-script-img {
+    margin: auto;
+    display: block;
+}
+#ans-script-img:hover {
+    cursor: zoom-in;
+}
+
+#ans-script-div {
+    float: left;
+    width: 60%;
+    height: 622px;
+    overflow: auto;
+    background-color: #fff;
+}
+#ans-script-image-div,
+#original-ans-script-image-div {
+    margin: auto;
+    float: none;
+    width:100%;
+    height:572px;
+    max-height: 572px;
+    min-height: 572px;
+    overflow: auto;
+}
+#ans-script-canvas-div {
+	margin: auto;
+    float: none;
+    width:100%;
+    height:572px;
+    max-height: 572px;
+    min-height: 572px;
+    overflow: auto;
+}
+#ansScript-controls-div {
+    width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    background-color: #bfbfbf;
+}
+#ansScript-controls-div #pg-num-text-field,
+#ansScript-controls-div #total-pages-text-field {
+    margin-top: 10px;
+    padding: 5px 16px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    background-color: #a6a6a6;
+	font-size: large;
+	font-weight: bold;
+}
+#ansScript-controls-div #pg-num-text-field:focus {
+    background-color: #d9d9d9;
+}
+#ansScript-controls-div #zoomOut-button {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+	margin-left: 5px;
+    padding: 8px 16px;
+}
+#ans-script-canvas-div {
+    float: none;
+    width:100%;
+    height:572px;
+    max-height: 572px;
+    min-height: 572px;
+    overflow: auto;
+    background-color:white;
+}
+canvas:active {
+    cursor: default;
+}
+div#marks-entry-div {
+	float:left;
+	width:40%;
+	height:622px;
+	overflow:auto;
+	background-color:#d9d9d9;
+}
+div#marks-entry-div div#marks-entry-table-div {
+	float:left;
+	width:100%;
+	overflow:auto;
+	height:572px;
+	max-height:572px;
+}
+div#marks-entry-div div#marks-entry-controls-div {
+	overflow:auto;
+	width:100%;
+	min-height:50px;
+	max-height:50px;
+	float:left;
+}
+div#marks-entry-controls-div input#total-marks-text-field,
+div#marks-entry-controls-div input#total-max-marks-text-field {
+	margin-top: 10px;
+    padding: 6px 16px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    background-color: #a6a6a6;
+	font-weight: bold;
+	font-size: medium;
+}
+
+table input.marksTB {
+	width:35px;
+}
+table input.remarksTB {
+	width: 170px;
+}
+table input.transparent {
+	border: none;
+	background-color: transparent;
+}
+table input.marksTB:focus,
+table input.transparent:focus {
+	background-color: white;
+}
+input.transparent {
+	border: none;
+	background-color: transparent;
+}
+input#err-disp-text-field {
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 2px;
+	color: white;
+	min-width: 700px;
+	font-size: large;
+	background-color: #ff4d4d;
+	border-radius: 5px;
+	border: none;
+	display: none;
+	float: left;
+}
+input#correction-percent-text-field {
+	text-align: center;
+	margin-right: 30px;
+	margin-top: 2px;
+	border-radius: 5px;
+	border: 2px solid #737373;
+	color: #262626;
+	font-size: large;
+	float: right;
+	height: 22px;
+	
+}
+	

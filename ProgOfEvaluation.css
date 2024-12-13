@@ -1,0 +1,139 @@
+/* The container <div> - needed to position the dropdown1 content */
+div.select1,
+div.select2,
+div.select3 {
+	margin:0px;
+	width: 100%;
+}
+
+
+/* Styling for select buttons */
+
+/* Nav Bar */
+/*
+#nav-div{    float: left;
+    width: 60%;
+    height: 1000px;
+    overflow: auto;
+    background-color: #fff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    width: 200px;
+    background-color: #f1f1f1;
+  
+    height: 100%;
+    overflow: auto;
+  font-family:"Verdana";}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 16px 16px;
+    text-decoration: none;
+  text-align:center-left;
+  font-family:"Verdana";
+}
+
+li a.active {
+    background-color: #000;
+    color: white;
+}
+
+li a:hover {
+    background-color: #d6d6c2;
+   
+}
+
+li.list1{
+background-color: #000;
+}
+*/
+/*
+button {
+    border: none;
+    outline: none;
+}
+
+button.green-button {
+    background-color: #4CAF50;
+    color: white;
+}
+button.green-button:focus,
+button.green-button:hover {
+    background-color: #3e8e41;
+}
+
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+*/
+
+div#select-container-div-id {
+	/*float:left;*/
+	margin:90px auto 20px auto;
+	width:60%;
+	min-width: 250px;
+	display: block;
+	background-color: #d9d9d9;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	overflow: auto;
+	border-radius: 8px;
+}
+
+select#selectId1,
+select#selectId2,
+select#selectId3 {
+	padding: 8px 16px;
+	padding-left: 40px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width:260px;
+	display:block;
+	border-radius: 5px;
+	border-color: #737373;
+	text-align: center;
+}
+select#selectId1 option,
+select#selectId2 option,
+select#selectId3 option {
+	padding-top:8px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+button#showResults-button {
+	margin-top: 45px;
+	margin-bottom: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	padding: 12px 35px;
+}
+div.select1 label#select-label1,
+div.select2 label#select-label2,
+div.select3 label#select-label3 {
+	padding-left: 40px;
+}
+#msgdispTB {
+	text-align: center;
+    margin-right: auto;
+    margin-top: 300px;
+	margin-bottom: auto;
+	margin-left: auto;
+	background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #999;
+    color: #262626;
+    font-size: x-large;
+    height: 68px;
+	display: block;
+	width: 500px;
+	color: #737373;
+}
